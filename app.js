@@ -48,5 +48,6 @@ button.addEventListener('click', () => {
 
     alert('Quiz complete! Scroll down to view your results');
     results.textContent = `Hey ${userName}, you got ${correctAnswers} right out of 3.`;
-
+    
 });
+
