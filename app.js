@@ -39,14 +39,14 @@ button.addEventListener('click', () => {
 
 
     const catResponse = prompt(`Okay ${userName}! Was Nicolas Cage's cat named, Lewis?`);
-        if (!countsAsAYes(catResponse)) {
+        if (countsAsAYes(catResponse)) {
            correctAnswers++;
     }
 
 
 
 
-    alert('Quiz complete! Check the page for your results');
+    alert('Quiz complete! Scroll down to view your results');
     results.textContent = `Hey ${userName}, you got ${correctAnswers} right out of 3.`;
 
 });
